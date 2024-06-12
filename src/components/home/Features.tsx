@@ -63,21 +63,21 @@ const Features = () => {
         </div>
         </div>
         
-        <span className='text-[18px] font-medium text-[#FF5555]'>Features</span>
-        <h3 className='text-[48px] font-bold'>uifry premium</h3>
+        <span className='text-[18px] font-myfontMedium text-[#FF5555]'>Features</span>
+        <h3 className='text-[48px] font-myfontBold'>uifry premium</h3>
         <div className='md:w-[80%] mr-auto mt-6'>
             <div className='w-full pr-10 mb-6'>
-            <h3 className='flex items-center gap-4 font-semibold text-[18px] py-3'><PiStarFourLight  className='h-5 w-5 text-[#FF5555] animate-bounce'/> budgeting intervals</h3>
+            <h3 className='flex items-center gap-4 font-myfontsemiBold text-[18px] py-3'><PiStarFourLight  className='h-5 w-5 text-[#FF5555] animate-bounce'/> budgeting intervals</h3>
         <p>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
 
             </div>
             <div className='w-full pr-10 mb-6 z-20'>
-            <h3 className='flex items-center gap-4 font-semibold text-[18px] py-3'><TbHexagon3D  className='h-5 w-5 text-[#FF5555] animate-bounce'/> budgeting intervals</h3>
+            <h3 className='flex items-center gap-4 font-myfontsemiBold text-[18px] py-3'><TbHexagon3D  className='h-5 w-5 text-[#FF5555] animate-bounce'/> budgeting intervals</h3>
         <p className=''>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
 
             </div>
             <div className='w-full pr-10 mb-6'>
-            <h3 className='flex items-center gap-4 font-semibold text-[18px] py-3'><PiCubeTransparent className='h-5 w-5 text-[#FF5555] animate-bounce'/> budgeting intervals</h3>
+            <h3 className='flex items-center gap-4 font-myfontsemiBold text-[18px] py-3'><PiCubeTransparent className='h-5 w-5 text-[#FF5555] animate-bounce'/> budgeting intervals</h3>
         <p>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
 
             </div>

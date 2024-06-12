@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 import { ThemeProvider } from "@/components/Theme-Provider";
+import { myfontregular, myfontBold, myfontsemibold,myfontmedium } from "@/utils/fonts";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,7 +27,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-        <div className="relative">
+        <div className={`${myfontregular.variable}  ${myfontmedium.variable} ${myfontsemibold.variable} ${myfontBold.variable} relative`}>
         <Navbar/>
         {children}
         <Footer/>

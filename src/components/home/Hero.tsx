@@ -16,8 +16,8 @@ const Hero = () => {
             />
         </div>
         </div> 
-      <div className="md:w-[50%] flex flex-col gap-5 mt-10">
-        <h3 className="md:text-[64px] text-5xl font-bold leading-tight z-10 mt-16">
+      <div className=" lg:w-[50%] flex flex-col gap-5 mt-10">
+        <h3 className="md:text-[64px] text-5xl  z-10 mt-16 capitalize font-myfontBold">
           make the best financial decisions
         </h3>
         <div className="absolute top-16 left-[20%]  z-0">
@@ -30,12 +30,12 @@ const Hero = () => {
             />
           </div>
             </div>
-        <p className="text-[18px] font-medium text-[]">
+        <p className="text-[18px] font-myfontMedium text-[]">
           Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
           faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
         </p>
 
-        <div className="flex gap-10">
+        <div className="flex gap-10 font-myfontMedium">
           <button className="w-[150px] h-[50px] bg-black text-white hover:scale-110 hover:bg-[#FF5555] ease-in-out duration-300 flex items-center justify-center">
             Get started <IoIosArrowRoundForward className="text-white w-4 h-4 "/>
           </button>
@@ -64,7 +64,7 @@ const Hero = () => {
         </div>
         </div> 
 
-      <div className="md:w-[50%] relative md:h-screen mt-16">
+      <div className="md:w-[50%] relative md:h-screen mt-16 lg:block hidden max-md:block">
         <div className="bg-gradient-radial from-[#FF5555] via-transparent  to-transparent w-full h-[300px] absolute bottom-3  right-0 left-0 hidden md:block"></div>
     <div className="absolute top-0 w-full h-screen right-0">
     <div className="relative w-full md:h-screen h-[500px]">

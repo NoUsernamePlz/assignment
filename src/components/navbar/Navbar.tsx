@@ -28,7 +28,7 @@ const NavLinks = [
 const Navbar = () => {
   const [show, setShow] = useState(false);
   return (
-    <div className=" h-[80px]  top-0 left-0 w-full fixed z-50">
+    <div className=" h-[80px]  top-0 left-0 w-full fixed z-50 font-myfontMedium">
       <div className="max-w-7xl w-full mx-auto md:flex items-center justify-between max-md:px-10 z-50 bg-white dark:bg-transparent py-2">
         <div className=" flex items-center gap-8">
           <div className="relative h-[53px] w-[170px]">

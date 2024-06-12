@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="max-w-7xl w-full mx-auto  max-lg:p-4">
+    <div className="max-w-7xl w-full mx-auto  max-lg:p-4 font-myfont">
       <Hero/>
       <Features/>
       <Advantages/>

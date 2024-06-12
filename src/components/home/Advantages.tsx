@@ -18,16 +18,16 @@ const Advantages = () => {
         </div>
         </div> 
         <div className="md:w-[50%] flex  flex-col items-start gap-4">
-          <span className="text-[18px] font-medium text-[#FF5555]">
+          <span className="text-[18px] font-myfontMedium text-[#FF5555]">
             Advatnages
           </span>
-          <h3 className="font-bold text-[48px]">why choose Uifry?</h3>
-          <div className="flex items-center gap-4 text-[28px] font-semibold">
+          <h3 className="font-myfontBold text-[48px]">why choose Uifry?</h3>
+          <div className="flex items-center gap-4 text-[28px] font-myfontsemiBold">
             {" "}
             <IoNotificationsCircle className="h-8 w-8 text-[#FF5555]" /> Clever
             Notifications
           </div>
-          <p className="text-[18px] font-medium w-full">
+          <p className="text-[18px] font-myfontMedium w-full">
             Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.
             In ultrices malesuada elit mauris etiam odio. Duis tristique lacus,
             et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse
@@ -79,12 +79,12 @@ const Advantages = () => {
         </div>
       </div>
         <div className="md:w-[50%] flex  flex-col items-start gap-4">
-          <div className="flex items-center gap-4 text-[28px] font-semibold">
+          <div className="flex items-center gap-4 text-[28px] font-myfontsemiBold">
             {" "}
             <PiStarFourLight className="h-8 w-8 bg-[#FF5555] text-white p-2 rounded-full" />{" "}
             Fully Customizable
           </div>
-          <p className="text-[18px] font-medium w-full">
+          <p className="text-[18px] font-myfontMedium w-full">
             Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.
             In ultrices malesuada elit mauris etiam odio. Duis tristique lacus,
             et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse

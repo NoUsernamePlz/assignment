@@ -65,28 +65,28 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col items-start justify-start gap-3">
-          <h1 className="text-[32px] font-medium pb-4">Link</h1>
+          <h1 className="text-[32px] font-myfontMedium pb-4">Link</h1>
           {Links.map((el, i) => (
             <div key={i}>{el.label}</div>
           ))}
         </div>
 
         <div className="flex flex-col items-start justify-start gap-3">
-          <h1 className="text-[32px] font-medium pb-4">Legal</h1>
+          <h1 className="text-[32px] font-myfontMedium pb-4">Legal</h1>
           {Legal.map((el, i) => (
             <div key={i}>{el.label}</div>
           ))}
         </div>
         <div className="flex flex-col items-start justify-start gap-3">
-          <h1 className="text-[32px] font-medium pb-4">Product</h1>
+          <h1 className="text-[32px] font-myfontMedium pb-4">Product</h1>
           {product.map((el, i) => (
             <div key={i}>{el.label}</div>
           ))}
         </div>
         <div className="flex flex-col items-start justify-start gap-3 max-lg:w-[20%]">
-          <h1 className="text-[32px] font-medium pb-4">Newsletter</h1>
+          <h1 className="text-[32px] font-myfontMedium pb-4">Newsletter</h1>
           <span>Stay up to date</span>
-          <div className="flex  px-1">
+          <div className="flex  px-1 font-myfontMedium">
             <input
               type="text"
               className="focus:border-0 border-none placeholder:text-[#81848A] h-[60px] p-1"

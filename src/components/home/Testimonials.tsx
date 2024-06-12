@@ -12,8 +12,8 @@ const Testimonials = () => {
             className='object-contain'
             />
         </div>
-      <span className='font-medium text-[18px] md:pb-8 max-md:mt-[40%]'>Testimonial</span>
-      <h3 className='font-bold text-[48px] max-w-xl mx-auto w-full leading-snug'>What our users say about us?</h3>
+      <span className='font-myfontMedium text-[18px] md:pb-8 max-md:mt-[40%]'>Testimonial</span>
+      <h3 className='font-myfontBold text-[48px] max-w-xl mx-auto w-full leading-snug'>What our users say about us?</h3>
       <div className='w-full md:flex items-center md:my-16'>
         <div className='md:w-[50%] w-full h-[500px] relative'>
        
@@ -42,10 +42,10 @@ const Testimonials = () => {
           </div>
         </div>
         <div className='md:w-[50%] flex flex-col items-start justify-start gap-4 text-left px-10 p-4 h-[500px]'>
-          <h3 className='font-semibold text-[28px] capitalize'>the best financial accounting app ever!</h3>
+          <h3 className='font-myfontsemiBold text-[28px] capitalize'>the best financial accounting app ever!</h3>
           <p>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.”</p>
            <Image src="/home/testimonialavatars.png" width={150} height={80} alt="avatars" quality={100} />
-           <span className='font-semibold text-[18px] capitalize '>nick jonas</span>
+           <span className='font-myfontsemiBold text-[18px] capitalize '>nick jonas</span>
         </div>
       </div>
     </div>

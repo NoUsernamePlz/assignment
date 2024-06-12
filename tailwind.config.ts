@@ -17,6 +17,12 @@ const config = {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      myfont:["var(--font-myfont-regular)"],
+      myfontBold:["var(--font-myfont-bold)"],
+      myfontMedium:["var(----font-myfont-medium)"],
+      myfontsemiBold:["var(--font-myfont-semibold)"]
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
